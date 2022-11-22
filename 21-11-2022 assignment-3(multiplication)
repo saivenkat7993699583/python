@@ -1,0 +1,4 @@
+s=int(input("Enter the number : "))
+v=int(input("Enter the number : "))
+k=s*v
+print("Multiplication of two numbers = ",k)
