@@ -1,0 +1,4 @@
+j=int(input("Enter the number : "))
+s=int(input("Enter the number : "))
+v=j/s
+print("Divison of two numbers = ",v)
