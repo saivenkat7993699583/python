@@ -1,0 +1,6 @@
+p=int(input("Enter principle amount : "))
+t=int(input("Enter time period : "))
+r=float(input("Enter interest amount : "))
+SI=(p*t*r)/100
+EMI=(SI+p)/t*12
+print("The EMI amount is : ",EMI)
