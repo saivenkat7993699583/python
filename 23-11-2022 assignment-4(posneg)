@@ -1,0 +1,5 @@
+venkat=int(input("Enter the number : "))
+if venkat>0:
+ print("Given number is postive")
+else:
+ print("Given number is negative")
