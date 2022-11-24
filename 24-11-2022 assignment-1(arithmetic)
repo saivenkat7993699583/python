@@ -1,0 +1,14 @@
+a=int(input("Enter the first number : "))
+b=int(input("Enter the second number : "))
+#SUM
+sum=a+b
+print("Sum of two numbers = ",sum)
+#SUBTRACTION
+sub=a-b
+print("subtraction of two numbers = ",sub)
+#MULTIPLICATION
+mul=a*b
+print("Multiplication of two numbers = ",mul)
+#DIVISION
+div=a/b
+print("Division of two numbers = ",div)
