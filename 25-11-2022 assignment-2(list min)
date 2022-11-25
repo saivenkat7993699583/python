@@ -1,0 +1,6 @@
+l=[10,20,30,40,50,1,53,22,4,6,0,222]
+min = l[0]
+for i in range(len(l)):
+        if l[i] < min:
+           min = l[i] 
+print("The smallest element in the list is ",min)
