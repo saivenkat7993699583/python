@@ -1,0 +1,8 @@
+pin=int(input("Enter your ATM pin code : "))
+pincode=str(pin)
+l=len(pincode)
+if l==4:
+    print("Continue the transactions ")
+else:
+    print("Incorrect pin number")
+    print("Please try again")
