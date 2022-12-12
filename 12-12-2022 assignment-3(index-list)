@@ -1,0 +1,8 @@
+lst=[]
+n=int(input("Enter the size of  the list :"))
+for i in range(n):
+   x=int(input("Enter the elements to the list :"))
+   lst.append(x)
+print(lst[0])
+print(lst[2])
+print(lst[4])
