@@ -1,0 +1,18 @@
+l=[]
+n=int(input("entre value"))
+for i in range(0,n):
+    x=int(input("entre values"))
+    l.append(x)
+print(l)
+check=0
+k=int(input("entre k value"))
+for i in range(0,n):
+    for j in range(i+1,n):
+        if l[i]-l[j]==k:
+            check=1
+            print(i,j)
+            break
+if check==1:
+    print("yes")
+else:
+    print("no")
