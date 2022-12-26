@@ -1,0 +1,8 @@
+#Write a program to find maximum and minimum from the given digit?
+s=int(input("Enter the range of the number : "))
+l=[]
+for i in range(s):
+   x=int(input("Enter a value : "))
+   l.append(x)
+print(min(l))
+print(max(l))
