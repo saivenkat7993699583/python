@@ -1,0 +1,11 @@
+#Write a program to maximum prime number and minimum prime number from the given list.
+l=[]
+s=int(input("Enter the value : "))
+for i in range(s):
+   l.append(int(input("Enter a value : ")))
+print(l)
+for j in range(2,l):
+   if l%j==0:
+      print(l,"is not a prime ")
+else:
+   print(l,"prime ")
