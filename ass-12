@@ -1,0 +1,7 @@
+#Write a program to print factorial of the given number.
+s=int(input("Enter any number : "))
+fact=1
+while s>1:
+   fact=fact*s
+   s=s-1
+print(fact)
