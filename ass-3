@@ -1,0 +1,9 @@
+#Write a program to print Fibonacci  n series?
+s=int(input("Enter the range of the number : "))
+i,a,b,c=1,1,0,0
+while(i<=s):
+   print(c,end=" ")
+   c=a+b
+   a=b
+   b=c
+   i+=1
