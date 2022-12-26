@@ -1,0 +1,10 @@
+lst=[]
+n=int(input("Enter the size of  the list :"))
+for i in range(n):
+   x=int(input("Enter the elements to the list :"))
+   lst.append(x)
+print(lst)
+print("Minimum value of the list is = ",min(lst))
+print("Maximum value of the list = ",max(lst))
+
+print(max(lst)-min(lst))
