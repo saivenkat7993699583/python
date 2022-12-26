@@ -1,0 +1,7 @@
+#Write a program to arrange elements in sequential order.
+l=[]
+s=int(input("Enter the value : " ))
+for i in range(s):
+   l.append(int(input("Enter a value : ")))
+print(l)
+print(sorted(l))
