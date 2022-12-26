@@ -1,3 +1,4 @@
+#Write a program to print Unique single number for the duplicate list?      
 lst=[]
 flag=0
 n=int(input("Enter the size of  the list :"))
