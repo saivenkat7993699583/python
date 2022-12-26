@@ -1,0 +1,9 @@
+
+#Write a program to print reverse of the given list.
+l=[]
+s=int(input("Enter the value : " ))
+for i in range(s):
+   l.append(int(input("Enter a value : ")))
+print(l)
+l.reverse()
+print(l)
