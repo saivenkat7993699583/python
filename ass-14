@@ -1,0 +1,15 @@
+#Write a program to print previous happy number of the given number?
+s=int(input("Enter any number :"))
+x=s-1
+print(x)
+while x>=10:
+   sum=0
+   while x>0:
+      r=x%10
+      sum=sum+(r**2)
+      x=x//10
+   x=sum
+if x==1:
+   print("Given number is happy number !!! ")
+else:
+   print("Given number is not a happy number !!! ")
