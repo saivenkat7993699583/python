@@ -1,0 +1,8 @@
+#Write a program to substract one number from the the given number and converted into list.
+n=int(input("Enter any number : "))
+s=n-1
+l=[]
+v=str(s)
+for i in v:
+   l.append(int(i))
+print(l)
