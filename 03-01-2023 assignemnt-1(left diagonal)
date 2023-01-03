@@ -1,0 +1,14 @@
+n = int(input())
+s = []
+sum = 0
+for i in range(n):
+    l=[]
+    for j in range(n):
+        x = int(input())
+        l.append(x)
+    s.append(l)
+for i in range(n):
+    for j in range(n):
+        if i+j==n-1:
+            sum = sum +s[i][j]
+print(sum)
