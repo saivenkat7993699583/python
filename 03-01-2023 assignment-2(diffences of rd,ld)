@@ -1,0 +1,21 @@
+n = int(input())
+s = []
+sum1 = 0
+sum2 = 0 
+for i in range(n):
+    l=[]
+    for j in range(n):
+        x = int(input())
+        l.append(x)
+    s.append(l)
+for i in range(n):
+    for j in range(n):
+        if i+j==n-1:
+            sum1 = sum1 + s[i][j]
+
+for i in range(n):
+    for j in range(n):
+        if i==j:
+            sum2 = sum2 + s[i][j]
+sum=sum2 - sum1
+print(sum)
