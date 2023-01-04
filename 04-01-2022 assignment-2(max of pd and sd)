@@ -1,0 +1,20 @@
+
+   # write a program to find maximum element from the primary and secondary diagonal
+
+n=int(input())
+m=[]
+z=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    m.append(l)
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+           z.append(m[i][j])
+        if i+j==n-1:
+            z.append(m[i][j])
+print(z)
+print(max(z))
