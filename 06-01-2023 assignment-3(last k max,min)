@@ -1,0 +1,7 @@
+#   write a program to calculate the last k maximum and minimum difference from the given list
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+m=l[-1:-k]
+print(m)
+print(max(m)-min(m))
