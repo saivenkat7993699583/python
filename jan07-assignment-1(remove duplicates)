@@ -1,0 +1,7 @@
+#Assignment-1
+#write a program to remove duplicates from the group of elements
+n=input()
+s=list(map(int,input().split()))
+k=set(s)
+for i in k:
+   print(i,end=" ")
