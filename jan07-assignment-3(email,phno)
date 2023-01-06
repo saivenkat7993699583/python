@@ -1,0 +1,9 @@
+#Assignment-3
+#write a program to check given email id and phno are valid or not.
+
+s=input("Email : ")
+v=input("phno : ")
+if s.endswith("@gmail.com") and len(v)==10:
+   print("Registration successfully")
+else:
+  print("Check your details ..... please sai")
